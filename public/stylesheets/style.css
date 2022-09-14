@@ -1,0 +1,189 @@
+:root {
+    --background: #e5e6eb;
+    --blog-posts: white;
+    --text: black;
+    --text-hover: white;
+  }
+
+body {
+  background-image:
+  url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/becdd8955dc57eb.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: 0px 0px;
+  background-size: cover;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  margin: 0;
+  box-shadow: inset 2px 2px 6px 1px
+  rgba(71, 71, 71, 0.5);
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-div h1 {
+  text-decoration: none;
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+nav a {
+  color:rgb(212, 14, 163);
+  font-size: 20px;
+}
+
+ol {
+  padding: 0;
+}
+
+.alt-margin {
+  margin-top: 20px;
+}
+
+.header-div {
+  margin-top: 40px;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: rgb(231, 231, 231);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  box-shadow: inset .5px .5px 1px 1px
+  rgba(71, 71, 71, 0.212), 2px 2px 6px 1px
+  rgba(71, 71, 71, 0.5);
+}
+
+.btn {
+  padding: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color:rgb(212, 212, 212);
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  box-shadow: inset .5px .5px 1px 1px
+  rgba(71, 71, 71, 0.212);
+  font-size: 18px;
+  font-family: 'Balsamiq Sans', cursive;
+  color:rgb(212, 14, 163);
+  margin-top: 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.alt-btn {
+  background-color: rgb(248, 248, 248);
+  box-shadow: inset .5px .5px 1px 1px
+  rgba(71, 71, 71, 0.212);
+  border: none;
+  color: black;
+}
+
+.blog-post {
+  margin-top: 40px;
+  padding: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: rgb(231, 231, 231);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  box-shadow: inset .5px .5px 1px 1px
+  rgba(71, 71, 71, 0.212), 2px 2px 6px 1px
+  rgba(71, 71, 71, 0.5);
+}
+
+.blog-no-margin {
+  margin-top: 5px;
+}
+
+.blog-post h1 {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px black;
+  border-color: rgb(212, 212, 212);
+}
+
+textarea {
+  background-color: rgb(248, 248, 248);
+  box-shadow: inset .5px .5px 1px 1px
+  rgba(71, 71, 71, 0.212);
+  border: none;
+  width: 100%;
+  height: 100px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+input {
+  background-color: rgb(248, 248, 248);
+  width: auto;
+  box-shadow: inset .5px .5px 1px 1px
+  rgba(71, 71, 71, 0.212);
+  border: none;
+  font-size: 15px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+input::placeholder {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+textarea::placeholder {
+  padding-top: 5px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 15px;
+}
+
+.post-content {
+  margin-bottom: 20px;
+}
+
+.content {
+  padding-bottom: 10px;
+  border-bottom: solid 2px black;
+  border-color: rgb(212, 212, 212);
+  margin-bottom: 10px;
+  color:rgb(212, 14, 163);
+  max-width: 800px;
+}
+
+.login-form, .signup-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.article {
+  padding-top: 20px;
+}
+
+.comment-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.edit-content {
+  margin-bottom: 20px;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+

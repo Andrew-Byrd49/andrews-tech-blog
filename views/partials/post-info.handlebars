@@ -1,0 +1,22 @@
+<div class="">
+
+  <div class="">
+    <header class="">
+    <div class="">
+      <h1>{{title}}</h1>
+    </div>
+  </header>
+    <div class="content">
+      {{content}}
+    </div>
+    <div class="">
+      <b>{{user.username}}</b>
+      |
+      {{format_date created_at}}
+      |
+      <a href="/post/{{id}}" class="">{{comments.length}}
+        {{format_plural "comment" comments.length}}</a>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,24 @@
+
+    {{> post-info post}}
+
+
+{{#if loggedIn}}
+    <form class="comment-form blog-post blog-no-margin">
+        <div>
+            <textarea name="comment-body" class=""></textarea>
+        </div>
+
+        <div>
+            <button type="submit" class="btn alt-btn">add comment</button>
+            <button type="button" class="btn alt-btn upvote-btn">upvote</button>
+        </div>
+    </form>
+{{/if}}
+
+{{> comments post.comments}}
+
+
+{{#if loggedIn}}
+    <script src="/javascript/comment.js"></script>
+    <script src="/javascript/upvote.js"></script>
+{{/if}}
