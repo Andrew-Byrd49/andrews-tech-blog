@@ -17,9 +17,9 @@
   <h3>Your Posts</h3>
   <ol>
     {{#each posts as |post|}}
-    <li class="">
+    <li class="your-comments">
       {{> post-info post}}
-      <button class="btn"><a href="/dashboard/edit/{{post.id}}" class="">Edit post</a></button>
+      <button class="btn"><a href="/dashboard/edit/{{post.id}}">Edit post</a></button>
     </li>
     {{/each}}
   </ol>

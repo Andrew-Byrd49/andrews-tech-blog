@@ -187,3 +187,9 @@ textarea::placeholder {
   align-items: flex-start;
 }
 
+.your-comments {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: solid 2px black;
+  border-color: rgb(184, 184, 184);
+}
